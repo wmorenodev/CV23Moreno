@@ -4,110 +4,176 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="css/styles.css" />
         <title>CV Wiktor Moreno 01.2023</title>
     </head>
-    <header>
-        <h1>Wiktor Moreno 2023</h1>
-    </header>
+
     <body>
-        <aside>
-            <img
-                src="/images/photo1sq.jpg"
-                width="370"
-                alt="CV picture of Wiktor Moreno"
-            />
-            <div>
-                <h2>Contacts</h2>
-                <p>
-                    C: <a href="tel:+48 536302360">+48 536302360</a><br />
-                    E:
-                    <a href="mailto:W1kt0rM0r3n0@gmail.com"
-                        >W1kt0rM0r3n0@gmail.com</a
-                    >
-                </p>
-            </div>
-            <div>
-                <h2>Tech skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>GIT</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Soft skills</h2>
-                <ul>
-                    <li>Teamwork</li>
-                </ul>
-            </div>
-            <div>
-                <h2>Hobby</h2>
-                <ul>
-                    <li>Drumming</li>
-                    <li>Snowboarding</li>
-                </ul>
-            </div>
-        </aside>
-        <main>
-            <div>
-                <h2>Front-End Developer</h2>
-                <h1>Wiktor Moreno</h1>
-                <p>
-                    I am starting a new career path. With open mind and
-                    curiosity I am ready to learn, ready to gain experience.
-                </p>
-            </div>
-            <div>
-                <h2>Projects</h2>
-                <ol>
-                    <li>
-                        <a href="https://wmorenodev.github.io/CV23Moreno/">
-                            https://wmorenodev.github.io/CV23Moreno/</a
-                        >......[HTML, CSS]
-                    </li>
+        <div class="wrapper">
+            <main>
+                <div class="main-description">
+                    <h2 class="job-title">Front-End Developer</h2>
+                    <h1>Wiktor Moreno</h1>
+                    <p class="description">
+                        I am starting a new career path. With open mind and
+                        curiosity I am ready to learn, ready to gain experience.
+                    </p>
+                </div>
+                <div class="projects">
+                    <h2 class="header-primary">Projects</h2>
+                    <ol class="list-ptimary">
+                        <li>
+                            <a
+                                class="list-primary-item"
+                                href="https://wmorenodev.github.io/CV23Moreno/"
+                            >
+                                https://wmorenodev.github.io/CV23Moreno/</a
+                            ><span class="list-primary-item">......</span>[<span
+                                class="list-primary-item"
+                                >HTML, CSS</span
+                            >]
+                        </li>
 
-                    <li>
-                        <a href="https://github.com/wmorenodev">
-                            https://github.com/wmorenodev</a
-                        >......[GIT repositories ]
-                    </li>
-                </ol>
-            </div>
+                        <li>
+                            <a
+                                class="list-primary-item"
+                                href="https://github.com/wmorenodev"
+                            >
+                                https://github.com/wmorenodev</a
+                            ><span class="list-primary-item"
+                                >....................</span
+                            >[<span class="list-primary-item"
+                                >GIT repositories </span
+                            >]
+                        </li>
+                    </ol>
+                </div>
 
-            <article>
-                <h2>Work Experience</h2>
+                <article>
+                    <h2 class="header-primary">Work Experience</h2>
 
-                <div>
-                    <h3>Front-End Developer Freelance</h3>
-                    <p>January-2023 - up to now | Poland</p>
-                    <ul>
-                        <li>Setting up hardware.</li>
-                        <li>Setting up software.</li>
-                        <li>Setting up coffeware.</li>
+                    <div>
+                        <h3 class="job-name">
+                            Front-End Developer
+                            <span class="highlight">Freelance</span>
+                        </h3>
+                        <p class="time-period">
+                            January-2023 - up to now | Poland
+                        </p>
+                        <ul class="job-list">
+                            <li>Setting up hardware.</li>
+                            <li>Setting up software.</li>
+                            <li>Setting up coffeware.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article>
+                    <h2 class="header-primary">Education</h2>
+                    <div>
+                        <h3 class="job-name">
+                            Full-stack Front End Developer from scratch
+                            <span class="highlight">GoIT</span>
+                        </h3>
+                        <p class="time-period">
+                            January 2023, duration - 10 months | Poland
+                        </p>
+                        <ul class="job-list">
+                            <li>HTML, CSS, GIT.</li>
+                            <li>
+                                JavaScript, React.js, Node.js (still to come).
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="job-name">
+                            HTML, CSS free marathon
+                            <span class="highlight">GoIT</span>
+                        </h3>
+                        <p class="time-period">
+                            December 2022, duration - 1week | Poland
+                        </p>
+                        <ul class="job-list">
+                            <li>Basics of HTML.</li>
+                            <li>Basics of CSS.</li>
+                        </ul>
+                    </div>
+                </article>
+            </main>
+            <aside>
+                <img
+                    class="cv-photo"
+                    src="/images/photo1sq.jpg"
+                    width="300"
+                    alt="CV picture of Wiktor Moreno"
+                />
+                <div class="contact-block">
+                    <h2 class="header-secondary">Contacts</h2>
+                    <p class="contact-links">
+                        <span class="bold">C:</span>
+                        <a class="contact-links" href="tel:+48 536302360"
+                            >+48 536302360</a
+                        ><br />
+                        <span class="bold">E:</span>
+                        <a
+                            class="contact-links"
+                            href="mailto:W1kt0rM0r3n0@gmail.com"
+                            >W1kt0rM0r3n0@gmail.com</a
+                        >
+                    </p>
+                </div>
+                <div class="skills-block">
+                    <h2 class="header-secondary">Tech skills</h2>
+                    <ul class="list-secondary">
+                        <li><span class="list-secondary-item">HTML</span></li>
+                        <li><span class="list-secondary-item">CSS</span></li>
+                        <li><span class="list-secondary-item">GIT</span></li>
                     </ul>
                 </div>
-            </article>
-
-            <article>
-                <h2>Education</h2>
-                <div>
-                    <h3>Full-stack Front End Developer from scratch</h3>
-                    <p>January 2023, duration-10 months | Poland</p>
-                    <ul>
-                        <li>HTML, CSS, GIT</li>
-                        <li>JavaScript, React.js, Node.js (still to come)</li>
+                <div class="skills-block">
+                    <h2 class="header-secondary">Soft skills</h2>
+                    <ul class="list-secondary">
+                        <li>
+                            <span class="list-secondary-item">Teamwork</span>
+                        </li>
                     </ul>
                 </div>
-                <div>
-                    <h3>HTML, CSS free marathon</h3>
-                    <p>December 2022, duration-1week | Poland</p>
-                    <ul>
-                        <li>Basics of HTML.</li>
-                        <li>Basics of CSS.</li>
+                <div class="skills-block">
+                    <h2 class="header-secondary">Language</h2>
+                    <ul class="list-secondary">
+                        <li>
+                            <span class="list-secondary-item">PL native</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item">ENG b2/c1</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item">DE a1/b1 </span>
+                        </li>
                     </ul>
                 </div>
-            </article>
-        </main>
+                <div class="skills-block">
+                    <h2 class="header-secondary">Hobby</h2>
+                    <ul class="list-secondary">
+                        <li>
+                            <span class="list-secondary-item">Drumming</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item"
+                                >Snowboarding</span
+                            >
+                        </li>
+                        <li><span class="list-secondary-item">Hiking</span></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
     </body>
 </html>
