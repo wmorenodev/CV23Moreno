@@ -40,6 +40,7 @@ aside {
 }
 .list-secondary-item {
     color: #ffffff;
+    text-transform: uppercase;
 }
 .contact-block {
     margin-top: 51px;
