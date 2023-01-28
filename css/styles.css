@@ -42,6 +42,9 @@ aside {
     color: #ffffff;
     text-transform: uppercase;
 }
+.list-secondary-item span {
+    text-transform: capitalize;
+}
 .contact-block {
     margin-top: 51px;
     margin-left: 40px;
