@@ -98,6 +98,14 @@ h1 {
     color: #595959;
     text-decoration: none;
 }
+.list-primary-bands {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 0;
+    list-style-position: inside;
+}
 .header-primary {
     font-weight: 700;
     font-size: 22px;
